@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Information Form</h1>
+        <form id="customerForm">
+            <div class="form-group">
+                <label for="nameFieldId">Name</label>
+                <input type="text" id="nameFieldId" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="slugFieldId">Slug</label>
+                <input type="text" id="slugFieldId" name="slug" required>
+            </div>
+            <div class="form-group">
+                <label for="firstNameFieldId">First Name</label>
+                <input type="text" id="firstNameFieldId" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastNameFieldId">Last Name</label>
+                <input type="text" id="lastNameFieldId" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="unitNumberFieldId">Unit Number</label>
+                <input type="text" id="unitNumberFieldId" name="unitNumber">
+            </div>
+            <div class="form-group">
+                <label for="levelNumberFieldId">Level Number</label>
+                <input type="text" id="levelNumberFieldId" name="levelNumber">
+            </div>
+            <div class="form-group">
+                <label for="streetNumberFieldId">Street Number</label>
+                <input type="text" id="streetNumberFieldId" name="streetNumber">
+            </div>
+            <div class="form-group">
+                <label for="streetNameFieldId">Street Name</label>
+                <input type="text" id="streetNameFieldId" name="streetName">
+            </div>
+            <div class="form-group">
+                <label for="suburbFieldId">Suburb</label>
+                <input type="text" id="suburbFieldId" name="suburb">
+            </div>
+            <div class="form-group">
+                <label for="stateFieldId">State</label>
+                <input type="text" id="stateFieldId" name="state">
+            </div>
+            <div class="form-group">
+                <label for="postcodeFieldId">Postcode</label>
+                <input type="text" id="postcodeFieldId" name="postcode">
+            </div>
+            <div class="form-group">
+                <button type="button" id="handoverButton">Submit</button>
+            </div>
+        </form>
+    </div>
